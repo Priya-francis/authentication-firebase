@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../Assets/Css/form.css" />
+  </head>
+  <body>
+    
+    <div class="content_info">
+      <div class="sub_nav">
+        <div class="sub_nav_head">
+          <h3>Upload Documents</h3>
+          <p class="color">Information Form</p>
+        </div>
+        <div class="contact">
+          <h3>Contact: 9952773572</h3>
+          <div class="icon">
+            <a href="../Index.html"><i class="fa-solid fa-user"></i></a>
+         <i class="fa-solid fa-right-from-bracket"></i>
+          </div>
+        </div>
+      </div>
+      <div class="sub_content">
+        <div class="space">
+          <label class="name">First Name</label>
+          <input type="text" id="firstname" class="empty" placeholder=" First Name"/>
+        </div>
+        <div class="space">
+          <label class="name">Last Name</label>
+          <input type="text" id="lastname" class="empty"  placeholder="   Last Name"/>
+        </div>
+        <div class="space">
+          <label class="name">Mobile Number</label>
+          <input type="tel" id="mobilenumber" class="empty" placeholder="  Mobile Number" />
+        </div>
+        <div class="space">
+          <label class="name">Profile</label>
+          <input type="file" id="file" class="empty" placeholder="   Profile"/>
+        </div>
+        <div class="space">
+          <label class="name">Any proof</label>
+          <input type="file" id="file1" class="empty" placeholder="   your proof"/>
+        </div>
+        <div class="space">
+          <label class="name">Date Of Birth</label>
+          <input type="date" id="dob" class="empty" />
+        </div>
+        <div class="space">
+          <label class="name">Address</label>
+          <input type="text" id="community" class="empty" placeholder="   Address" />
+        </div>
+       
+      </div>
+      <button class="submit" id="submit" onclick="module.upload()">
+        Submit
+      </button>
+     
+    </div>
+    <script src="../module.js"></script>
+    <script type="module" src="../app.js"></script>
+    
+  </body>
+</html>
